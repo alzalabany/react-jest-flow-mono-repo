@@ -46,6 +46,7 @@
     "whatwg-fetch": "^2.0.4"
   },
   "scripts": {
+    "cypress": "cypress open",
     "flow": "flow",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
@@ -60,6 +61,8 @@
       "<rootDir>/config/polyfills.js"
     ],
     "testMatch": [
+      "<rootDir>/e2e/**/*.{js,jsx,mjs}",
+      "<rootDir>/packages/**/e2e/*.{js,jsx,mjs}",
       "<rootDir>/packages/**/__tests__/**/*.{js,jsx,mjs}",
       "<rootDir>/packages/**/?(*.)(spec|test).{js,jsx,mjs}"
     ],
@@ -105,7 +108,10 @@
   },
   "devDependencies": {
     "babel-preset-flow": "^6.23.0",
+    "cypress": "^3.0.2",
+    "faker": "^4.1.0",
     "flow-bin": "^0.76.0",
-    "flow-remove-types": "^1.2.3"
+    "flow-remove-types": "^1.2.3",
+    "puppeteer": "^1.6.0"
   }
 }
