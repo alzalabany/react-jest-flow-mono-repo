@@ -1,0 +1,18 @@
+[2018-07-17 12:04:54.158] argv=/Users/momen/Desktop/workspace/eject/node_modules/flow-bin/flow-osx-v0.76.0/flow start --temp-dir /tmp/flow /Users/momen/Desktop/workspace/eject
+[2018-07-17 12:04:54.167] Initializing Server (This might take some time)
+[2018-07-17 12:04:54.167] executable=/Users/momen/Desktop/workspace/eject/node_modules/flow-bin/flow-osx-v0.76.0/flow
+[2018-07-17 12:04:54.167] version=0.76.0
+[2018-07-17 12:04:54.170] Parsing
+[2018-07-17 12:04:54.643] Building package heap
+[2018-07-17 12:04:54.644] Loading libraries
+[2018-07-17 12:04:56.342] Resolving dependencies
+[2018-07-17 12:04:56.441] to_merge: Focused: 2, Dependents: 0, Dependencies: 0
+[2018-07-17 12:04:56.441] Calculating dependencies
+[2018-07-17 12:04:56.441] Merging
+[2018-07-17 12:04:56.458] Done
+[2018-07-17 12:04:56.458] Checked set: Focused: 2, Dependents: 0, Dependencies: 0
+[2018-07-17 12:04:56.464] Server is READY
+[2018-07-17 12:04:56.464] Took 2.296908 seconds to initialize.
+[2018-07-17 12:04:56.465] Status: OK
+[2018-07-17 12:06:12.970] Killing the worker processes
+Monitor is exiting with status Build_id_mismatch (Killed by legacy client. Exiting.)

@@ -1,0 +1,10 @@
+{
+  "name": "ischool-web",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "ischool-sdk": "1.0.0"
+  }
+}
