@@ -1,3 +1,5 @@
+$blue : #4b2c22;
+
 .App {
   text-align: center;
 }
@@ -8,10 +10,11 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: $blue;
   height: 150px;
   padding: 20px;
-  color: white;
+  color: darken($blue,  30%);
+
 }
 
 .App-title {
